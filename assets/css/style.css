@@ -23,6 +23,10 @@ header img {
   margin-bottom: 1.3rem;
   margin-top: 1.3rem;
 }
+
+header a:link {
+  text-decoration: none;
+}
 header h1,
 #menu {
   color: white;
@@ -30,11 +34,9 @@ header h1,
   margin-bottom: 1.3rem;
   line-height: 1.2rem;
 }
-
-header a:link {
-  text-decoration: none;
+header a {
+  color: white;
 }
-
 /* MAIN */
 #container {
   text-align: left;
@@ -136,8 +138,7 @@ aside section {
 aside section span {
   font-size: 80%;
   display: inline-block;
-  padding-top: 1rem;
-  padding-left: 7rem;
+  margin-top: 1rem;
 }
 aside section h6 {
   line-height: 1.5rem;
@@ -161,4 +162,7 @@ footer h3 {
 footer p {
   text-align: center;
   font-size: 65%;
+}
+section div {
+  text-align: right;
 }
